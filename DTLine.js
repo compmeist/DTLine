@@ -88,9 +88,10 @@ function DTLine_Init(cvName,regenCallback,mouseOverCallback,mouseOutCallback)
 }
 
 function DTLine_SetOption(cvName,optName,optVal)
-{ var iReturn = 1; // error
+{ var iReturn = 1; // default error return
   if (typeof optName != 'string') return iReturn;
   var o = dtLineOptions[cvName];
+  if (o) {
   iReturn = 0; // no error
   switch (optName) {
     //  may want to do some other validation 
@@ -159,7 +160,7 @@ function DTLine_SetOption(cvName,optName,optVal)
 
     default:
       iReturn = 1;
-  }
+  }}
   return iReturn;
 }
 
