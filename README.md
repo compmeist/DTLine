@@ -16,4 +16,4 @@ Drawbacks:
    Coupling options with html controls requires clear and redraw, although fast.
    TODO: handling fabric selections and changes.
    
-Here is an [example] (https://jsfiddle.net/compmeist/p5ntd6zj/).
+Here is an [example] (https://jsfiddle.net/compmeist/p5ntd6zj/){:target="_blank"}.
