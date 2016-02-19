@@ -1,7 +1,7 @@
 # DTLine
-HTML5 canvas based timeline, built using Moment JS and Fabric JS
+### HTML5 canvas based timeline, built using Moment JS and Fabric JS
 
-This is a usable, but preliminary version.  v 0.10
+This is a usable, but preliminary version.  v 0.11
 
 Features: 
    One global variable handles multiple canvases.
