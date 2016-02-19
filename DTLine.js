@@ -170,8 +170,9 @@ function DTLine_GetOption(cvName,optName) {
   return v;
 }
 
-
-
+function IsDTLine(cvName) {
+  return (dtLineOptions[cvName] != null);
+}
 
 
 function DTLine_AddToStartMoment(cvName,numUnits) {
